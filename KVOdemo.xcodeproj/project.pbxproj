@@ -15,6 +15,16 @@
 		2E4B4CD02056102F00AA1676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B4CCF2056102F00AA1676 /* main.m */; };
 		2E4B4CDA2056102F00AA1676 /* KVOdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B4CD92056102F00AA1676 /* KVOdemoTests.m */; };
 		2E4B4CE52056102F00AA1676 /* KVOdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B4CE42056102F00AA1676 /* KVOdemoUITests.m */; };
+		2E4B4CFF20561F3D00AA1676 /* KVO_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B4CFE20561F3D00AA1676 /* KVO_Model.m */; };
+		2E897B83205760BC0037C6BD /* KVO_customizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E897B7E205760BC0037C6BD /* KVO_customizeViewController.m */; };
+		2E897B84205760BC0037C6BD /* KVO_customizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E897B81205760BC0037C6BD /* KVO_customizeViewController.xib */; };
+		2E897B85205760BC0037C6BD /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E897B82205760BC0037C6BD /* NSObject+KVO.m */; };
+		2E897B91205760C60037C6BD /* KVO_systemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E897B87205760C60037C6BD /* KVO_systemViewController.xib */; };
+		2E897B92205760C60037C6BD /* KVO_systemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E897B88205760C60037C6BD /* KVO_systemViewController.m */; };
+		2E897B93205760C60037C6BD /* KVO_Pass_Value_secondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E897B8B205760C60037C6BD /* KVO_Pass_Value_secondViewController.xib */; };
+		2E897B94205760C60037C6BD /* KVO_Pass_Value_secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E897B8C205760C60037C6BD /* KVO_Pass_Value_secondViewController.m */; };
+		2E897B95205760C60037C6BD /* KVO_Pass_value_fistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E897B8D205760C60037C6BD /* KVO_Pass_value_fistViewController.m */; };
+		2E897B96205760C60037C6BD /* KVO_Pass_value_fistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E897B90205760C60037C6BD /* KVO_Pass_value_fistViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,22 @@
 		2E4B4CE02056102F00AA1676 /* KVOdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4B4CE42056102F00AA1676 /* KVOdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOdemoUITests.m; sourceTree = "<group>"; };
 		2E4B4CE62056102F00AA1676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4B4CFD20561F3D00AA1676 /* KVO_Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVO_Model.h; sourceTree = "<group>"; };
+		2E4B4CFE20561F3D00AA1676 /* KVO_Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_Model.m; sourceTree = "<group>"; };
+		2E897B7E205760BC0037C6BD /* KVO_customizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO_customizeViewController.m; sourceTree = "<group>"; };
+		2E897B7F205760BC0037C6BD /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		2E897B80205760BC0037C6BD /* KVO_customizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVO_customizeViewController.h; sourceTree = "<group>"; };
+		2E897B81205760BC0037C6BD /* KVO_customizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVO_customizeViewController.xib; sourceTree = "<group>"; };
+		2E897B82205760BC0037C6BD /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		2E897B87205760C60037C6BD /* KVO_systemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVO_systemViewController.xib; sourceTree = "<group>"; };
+		2E897B88205760C60037C6BD /* KVO_systemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO_systemViewController.m; sourceTree = "<group>"; };
+		2E897B89205760C60037C6BD /* KVO_systemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVO_systemViewController.h; sourceTree = "<group>"; };
+		2E897B8B205760C60037C6BD /* KVO_Pass_Value_secondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVO_Pass_Value_secondViewController.xib; sourceTree = "<group>"; };
+		2E897B8C205760C60037C6BD /* KVO_Pass_Value_secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO_Pass_Value_secondViewController.m; sourceTree = "<group>"; };
+		2E897B8D205760C60037C6BD /* KVO_Pass_value_fistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO_Pass_value_fistViewController.m; sourceTree = "<group>"; };
+		2E897B8E205760C60037C6BD /* KVO_Pass_Value_secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVO_Pass_Value_secondViewController.h; sourceTree = "<group>"; };
+		2E897B8F205760C60037C6BD /* KVO_Pass_value_fistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVO_Pass_value_fistViewController.h; sourceTree = "<group>"; };
+		2E897B90205760C60037C6BD /* KVO_Pass_value_fistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVO_Pass_value_fistViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +127,15 @@
 		2E4B4CBF2056102F00AA1676 /* KVOdemo */ = {
 			isa = PBXGroup;
 			children = (
+				2E897B86205760C60037C6BD /* KVO_system */,
+				2E897B7D205760BC0037C6BD /* KVO_customize */,
+				2E897B8A205760C60037C6BD /* KVO_Pass_Value */,
 				2E4B4CC02056102F00AA1676 /* AppDelegate.h */,
 				2E4B4CC12056102F00AA1676 /* AppDelegate.m */,
 				2E4B4CC32056102F00AA1676 /* ViewController.h */,
 				2E4B4CC42056102F00AA1676 /* ViewController.m */,
+				2E4B4CFD20561F3D00AA1676 /* KVO_Model.h */,
+				2E4B4CFE20561F3D00AA1676 /* KVO_Model.m */,
 				2E4B4CC62056102F00AA1676 /* Main.storyboard */,
 				2E4B4CC92056102F00AA1676 /* Assets.xcassets */,
 				2E4B4CCB2056102F00AA1676 /* LaunchScreen.storyboard */,
@@ -130,6 +161,41 @@
 				2E4B4CE62056102F00AA1676 /* Info.plist */,
 			);
 			path = KVOdemoUITests;
+			sourceTree = "<group>";
+		};
+		2E897B7D205760BC0037C6BD /* KVO_customize */ = {
+			isa = PBXGroup;
+			children = (
+				2E897B7E205760BC0037C6BD /* KVO_customizeViewController.m */,
+				2E897B80205760BC0037C6BD /* KVO_customizeViewController.h */,
+				2E897B81205760BC0037C6BD /* KVO_customizeViewController.xib */,
+				2E897B7F205760BC0037C6BD /* NSObject+KVO.h */,
+				2E897B82205760BC0037C6BD /* NSObject+KVO.m */,
+			);
+			path = KVO_customize;
+			sourceTree = "<group>";
+		};
+		2E897B86205760C60037C6BD /* KVO_system */ = {
+			isa = PBXGroup;
+			children = (
+				2E897B89205760C60037C6BD /* KVO_systemViewController.h */,
+				2E897B88205760C60037C6BD /* KVO_systemViewController.m */,
+				2E897B87205760C60037C6BD /* KVO_systemViewController.xib */,
+			);
+			path = KVO_system;
+			sourceTree = "<group>";
+		};
+		2E897B8A205760C60037C6BD /* KVO_Pass_Value */ = {
+			isa = PBXGroup;
+			children = (
+				2E897B8F205760C60037C6BD /* KVO_Pass_value_fistViewController.h */,
+				2E897B8D205760C60037C6BD /* KVO_Pass_value_fistViewController.m */,
+				2E897B90205760C60037C6BD /* KVO_Pass_value_fistViewController.xib */,
+				2E897B8E205760C60037C6BD /* KVO_Pass_Value_secondViewController.h */,
+				2E897B8C205760C60037C6BD /* KVO_Pass_Value_secondViewController.m */,
+				2E897B8B205760C60037C6BD /* KVO_Pass_Value_secondViewController.xib */,
+			);
+			path = KVO_Pass_Value;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E4B4CCD2056102F00AA1676 /* LaunchScreen.storyboard in Resources */,
+				2E897B84205760BC0037C6BD /* KVO_customizeViewController.xib in Resources */,
+				2E897B96205760C60037C6BD /* KVO_Pass_value_fistViewController.xib in Resources */,
+				2E897B93205760C60037C6BD /* KVO_Pass_Value_secondViewController.xib in Resources */,
+				2E897B91205760C60037C6BD /* KVO_systemViewController.xib in Resources */,
 				2E4B4CCA2056102F00AA1676 /* Assets.xcassets in Resources */,
 				2E4B4CC82056102F00AA1676 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4B4CFF20561F3D00AA1676 /* KVO_Model.m in Sources */,
+				2E897B92205760C60037C6BD /* KVO_systemViewController.m in Sources */,
+				2E897B95205760C60037C6BD /* KVO_Pass_value_fistViewController.m in Sources */,
+				2E897B83205760BC0037C6BD /* KVO_customizeViewController.m in Sources */,
+				2E897B85205760BC0037C6BD /* NSObject+KVO.m in Sources */,
+				2E897B94205760C60037C6BD /* KVO_Pass_Value_secondViewController.m in Sources */,
 				2E4B4CC52056102F00AA1676 /* ViewController.m in Sources */,
 				2E4B4CD02056102F00AA1676 /* main.m in Sources */,
 				2E4B4CC22056102F00AA1676 /* AppDelegate.m in Sources */,
